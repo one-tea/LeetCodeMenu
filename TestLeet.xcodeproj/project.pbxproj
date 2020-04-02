@@ -105,6 +105,7 @@
 		0A361A0F24266DEB0003A750 /* Middling */ = {
 			isa = PBXGroup;
 			children = (
+				0AD955912435D75F0012B10F /* GameOfLife.swift */,
 				0A361A1024266E3A0003A750 /* AddTwoNumbers.swift */,
 				0A361A122427802E0003A750 /* MinIncrementForUnique.swift */,
 			);
@@ -159,7 +160,6 @@
 				0A392A7C242B75B20001A0F7 /* Massage.swift */,
 				0A392A86242E1E6E0001A0F7 /* HasGroupsSizeX.swift */,
 				0AD83E372432438E00343D3D /* LastRemaining.swift */,
-				0AD955912435D75F0012B10F /* GameOfLife.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
