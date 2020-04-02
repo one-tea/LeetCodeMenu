@@ -1,0 +1,85 @@
+//
+//  HasGroupsSizeX.swift
+//  TestLeet
+//
+//  Created by zhangkk on 2020/3/27.
+//  Copyright © 2020 KK. All rights reserved.
+//
+
+import UIKit
+/**
+ 给定一副牌，每张牌上都写着一个整数。
+
+ 此时，你需要选定一个数字 X，使我们可以将整副牌按下述规则分成 1 组或更多组：
+
+ 每组都有 X 张牌。
+ 组内所有的牌上都写着相同的整数。
+ 仅当你可选的 X >= 2 时返回 true。
+
+  
+
+ 示例 1：
+
+ 输入：[1,2,3,4,4,3,2,1]
+ 输出：true
+ 解释：可行的分组是 [1,1]，[2,2]，[3,3]，[4,4]
+ 示例 2：
+
+ 输入：[1,1,1,2,2,2,3,3]
+ 输出：false
+ 解释：没有满足要求的分组。
+ 示例 3：
+
+ 输入：[1]
+ 输出：false
+ 解释：没有满足要求的分组。
+ 示例 4：
+
+ 输入：[1,1]
+ 输出：true
+ 解释：可行的分组是 [1,1]
+ 示例 5：
+
+ 输入：[1,1,2,2,2,2]
+ 输出：true
+ 解释：可行的分组是 [1,1]，[2,2]，[2,2]
+
+ 提示：
+
+ 1 <= deck.length <= 10000
+ 0 <= deck[i] < 10000
+  
+
+ 来源：力扣（LeetCode）
+ 链接：https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards
+ 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ */
+class HasGroupsSizeX: NSObject {
+    override init() {
+        super.init()
+        print(hasGroupsSizeX([1,1,4,2,2,2]))
+    }
+    func hasGroupsSizeX(_ deck: [Int]) -> Bool {
+        if deck.count == 0 {return false}
+        var dic = Dictionary<Int,Int>()
+        for obj in deck {
+            if dic.keys.contains(obj) {
+                dic[obj]! += 1
+            } else {
+                dic[obj] = 1
+            }
+        }
+        
+        var g = 1
+        for (_, value) in dic {
+           g = gcd(value, g)
+        }
+        
+        return g >= 2
+    }
+    
+    // 最大公约数
+    func gcd(_ x:Int, _ y:Int) -> Int {
+        return x % y == 0 ? y : gcd(y, x % y)
+    }
+}

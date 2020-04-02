@@ -61,8 +61,14 @@ class ViewController: UIViewController {
 //        let v = decompress.decompressRLElist([1,2,3,4])
 //        print(v)
         
-        let v =  FindNumbers().findNumbers([555,901,482,1771])
-        print(v)
+//        let v =  FindNumbers().findNumbers([555,901,482,1771])
+//        print(v)
+        
+//        AddTwoNumbers.init()
+//        Massage.init()
+//        HasGroupsSizeX.init()
+//        LastRemaining.init()
+        GameOfLife.init()
         
     }
 }
