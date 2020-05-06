@@ -25,8 +25,6 @@ class ViewController: UIViewController {
         return button;
     }
     
-
-    
     @objc func testClick() -> Void {
         /*
          let solution = Solution()
@@ -68,7 +66,31 @@ class ViewController: UIViewController {
 //        Massage.init()
 //        HasGroupsSizeX.init()
 //        LastRemaining.init()
-        GameOfLife.init()
+//        GameOfLife.init()
+//          myAtoi.init()
+//        MaxProfit.init()
+//        ClimbStairs.init()
+//        ConvertBST.init()
+//        DiameterOfBinaryTree.init()
+//        FindDisappearedNumbers.init()
+//        Rotate.init()
+//        MovingCount.init()
+//        Twitter.init()
+//        AddTwoNumbersII.init()
+//        FindKthLargest.init()
+//        Merge.init()
+//        MaxProfitII.init()
+//        CanJump.init()
+//        MaxArea.init()
+//        ThreeSum.init()
+//        ThreeSumClosest.init()
+//        KthSmallest.init()
+//        DetectCycleII.init()
+//        LongestCommonPrefix.init()
+//        LongestPalindrome.init()
+//        SingleNumbers.init()
+//        LowestCommonAncestor.init()
+        IsHappy.init()
         
     }
 }
