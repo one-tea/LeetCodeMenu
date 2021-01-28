@@ -63,6 +63,11 @@
 		0AD9559E243B7E680012B10F /* FindDisappearedNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD9559D243B7E680012B10F /* FindDisappearedNumbers.swift */; };
 		0AE63BC7243C966400F4BFCE /* Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE63BC6243C966400F4BFCE /* Rotate.swift */; };
 		0AF6F07B236B065C001AEC6D /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF6F07A236B065C001AEC6D /* BinarySearch.swift */; };
+		8943A54424D55B4500133483 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8943A54324D55B4500133483 /* TwoSum.swift */; };
+		8943A54624D59D9400133483 /* IsSymmetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8943A54524D59D9400133483 /* IsSymmetric.swift */; };
+		895D66EC24D675ED00685EB0 /* IsAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895D66EB24D675ED00685EB0 /* IsAnagram.swift */; };
+		895D66EE24EACD5E00685EB0 /* IsBalanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895D66ED24EACD5E00685EB0 /* IsBalanced.swift */; };
+		89EC7F4D251792CC009F26D3 /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EC7F4C251792CC009F26D3 /* Subsets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -124,6 +129,11 @@
 		0AD9559D243B7E680012B10F /* FindDisappearedNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDisappearedNumbers.swift; sourceTree = "<group>"; };
 		0AE63BC6243C966400F4BFCE /* Rotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotate.swift; sourceTree = "<group>"; };
 		0AF6F07A236B065C001AEC6D /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		8943A54324D55B4500133483 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		8943A54524D59D9400133483 /* IsSymmetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSymmetric.swift; sourceTree = "<group>"; };
+		895D66EB24D675ED00685EB0 /* IsAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsAnagram.swift; sourceTree = "<group>"; };
+		895D66ED24EACD5E00685EB0 /* IsBalanced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsBalanced.swift; sourceTree = "<group>"; };
+		89EC7F4C251792CC009F26D3 /* Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subsets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +199,7 @@
 				0A2526EA2451262400D9FC47 /* WaysToChange.swift */,
 				0AD4B8062458738800581A0A /* SingleNumbers.swift */,
 				0A860CBF2462E27600E8D138 /* MincostTickets.swift */,
+				89EC7F4C251792CC009F26D3 /* Subsets.swift */,
 			);
 			path = Middling;
 			sourceTree = "<group>";
@@ -261,6 +272,10 @@
 				0A2526E6244E8CF100D9FC47 /* LongestCommonPrefix.swift */,
 				0AD4B80824587AE900581A0A /* LowestCommonAncestor.swift */,
 				0ACA588D245DBF0A00D3949A /* IsHappy.swift */,
+				8943A54324D55B4500133483 /* TwoSum.swift */,
+				8943A54524D59D9400133483 /* IsSymmetric.swift */,
+				895D66EB24D675ED00685EB0 /* IsAnagram.swift */,
+				895D66ED24EACD5E00685EB0 /* IsBalanced.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -348,13 +363,17 @@
 				0A2526E1244B724700D9FC47 /* ThreeSumClosest.swift in Sources */,
 				0A6D791E2445A61400144E19 /* FindKthLargest.swift in Sources */,
 				0A6D791C24457FE400144E19 /* HasCycle.swift in Sources */,
+				8943A54624D59D9400133483 /* IsSymmetric.swift in Sources */,
 				0A6D792424486B5600144E19 /* ContainsDuplicate.swift in Sources */,
 				0A72D74923F02369003E65E3 /* FindNumbers.swift in Sources */,
+				8943A54424D55B4500133483 /* TwoSum.swift in Sources */,
 				0A2526E9244EA21100D9FC47 /* LongestPalindrome.swift in Sources */,
 				0AA4E90923F2FE71002770C9 /* NumJewelsInStones.swift in Sources */,
 				0A392A87242E1E6E0001A0F7 /* HasGroupsSizeX.swift in Sources */,
 				0A361A172428FDBF0003A750 /* MiddleNode.swift in Sources */,
 				0ACA588E245DBF0A00D3949A /* IsHappy.swift in Sources */,
+				89EC7F4D251792CC009F26D3 /* Subsets.swift in Sources */,
+				895D66EE24EACD5E00685EB0 /* IsBalanced.swift in Sources */,
 				0A6D792624486F9800144E19 /* MaxProfitII.swift in Sources */,
 				0A392A7D242B75B20001A0F7 /* Massage.swift in Sources */,
 				0A747F0423704BF000C9B810 /* SectionSort.swift in Sources */,
@@ -387,6 +406,7 @@
 				0A2526E3244BEE2100D9FC47 /* KthSmallest.swift in Sources */,
 				0A0C5E11235DDD69001B1EFD /* ClockwisePrintingMatrix.swift in Sources */,
 				0AD9559E243B7E680012B10F /* FindDisappearedNumbers.swift in Sources */,
+				895D66EC24D675ED00685EB0 /* IsAnagram.swift in Sources */,
 				0A995F0D22F9C1E10023D803 /* AppDelegate.swift in Sources */,
 				0A2526E5244D647B00D9FC47 /* DetectCycleII.swift in Sources */,
 			);

@@ -75,7 +75,7 @@ class ViewController: UIViewController {
 //        FindDisappearedNumbers.init()
 //        Rotate.init()
 //        MovingCount.init()
-//        Twitter.init()
+////        Twitter.init()
 //        AddTwoNumbersII.init()
 //        FindKthLargest.init()
 //        Merge.init()
@@ -90,7 +90,9 @@ class ViewController: UIViewController {
 //        LongestPalindrome.init()
 //        SingleNumbers.init()
 //        LowestCommonAncestor.init()
-        IsHappy.init()
+//        IsHappy.init()
+//        TwoSum.init()
+        IsAnagram.init()
         
     }
 }
