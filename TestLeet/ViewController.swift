@@ -92,7 +92,8 @@ class ViewController: UIViewController {
 //        LowestCommonAncestor.init()
 //        IsHappy.init()
 //        TwoSum.init()
-        IsAnagram.init()
+//        IsAnagram.init()
+        LengthOfLongestSubstring.init()
         
     }
 }

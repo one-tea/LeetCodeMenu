@@ -11,15 +11,15 @@ import UIKit
 class Subsets: NSObject {
     override init() {
         super.init()
-        print(subsets([1,2,3]))
+//        print(subsets([1,2,3]))
     }
-    func subsets(_ nums: [Int]) -> [[Int]] {
-        var sub:Set<[Int]>
-        for num in nums {
-            
-        }
-//        return sub
-    }
+//    func subsets(_ nums: [Int]) -> [[Int]] {
+//        var sub:Set<[Int]>
+//        for num in nums {
+//
+//        }
+////        return sub
+//    }
 }
 
 /**
